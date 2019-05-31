@@ -1,0 +1,41 @@
+.banner {
+  background: #27094a;
+  /* background: #1d74f5; */
+}
+.banner-info-grid h2 {
+  text-shadow: none;
+  font-weight: bold;
+}
+#product-nav {
+  border-bottom: 2px solid #8bc34a;
+}
+
+.product-features:nth-of-type(even) {
+  background: #f8f9fa;
+}
+.section-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  color: #233142;
+}
+
+.section-lists li {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  position: relative;
+  text-align: left;
+  color: #615274;
+  padding-left: 30px;
+}
+.section-lists li::before {
+  content: "";
+    width: 7px;
+    height: 7px;
+    display: block;
+    background-color: #4842B7;
+    border-radius: 50%;
+    position: absolute;
+    top: 13px;
+    left: 0;
+}

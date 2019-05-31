@@ -1,0 +1,136 @@
+.pricing {
+	padding: 12vw 0 3vw;
+  background: #fbfbfd;
+}
+.pricing_banner {
+  background: #27094a;
+  height: 90px;
+}
+.pricing .pricing_heading {
+	/* color: #fff; */
+	text-transform: initial;
+  font-weight: bold;
+  font-size: 2rem;
+}
+#pricing-nav {
+  border-bottom: 2px solid #8bc34a;
+}
+.btn-pricing {
+  background: #8BC34A;
+  color: #fff;
+}
+.subtitle {
+  color: #8f8f8f;
+}
+
+.pricing-faq {
+  padding: 3vw;
+}
+.f1 {
+  box-shadow: 0 5px 15px 0 rgba(37,44,97,0.15), 0 2px 4px 0 rgba(93,100,148,0.2);
+}
+.f1 h3 {
+  font-size: 27px;
+  font-weight: bold;
+}
+
+
+
+
+/* 
+- make mobile switch sticky
+*/
+/* * {
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+   outline: 0;
+} */
+
+
+.pricing_details article {
+  width:100%;
+  max-width:1000px;
+  margin:0 auto;
+  /* height:1000px; */
+  position:relative;
+  padding: 5%;
+}
+.pricing_details ul {
+  display:flex;
+  top:0px;
+  z-index:10;
+  padding-bottom:14px;
+}
+.pricing_details li {
+  list-style:none;
+  flex:1;
+}
+.pricing_details li:last-child {
+  border-right:1px solid #DDD;
+}
+.pricing_details button {
+  width:100%;
+  border: 1px solid #DDD;
+  border-right:0;
+  border-top:0;
+  padding: 10px;
+  background:#FFF;
+  font-size:14px;
+  font-weight:bold;
+  height:60px;
+  color:#999
+}
+.pricing_details li.active button {
+  background:#F5F5F5;
+  color:#000;
+}
+.pricing_details table { border-collapse:collapse; table-layout:fixed; width:100%; }
+.pricing_details th { background:#F5F5F5; display:none; }
+.pricing_details td, th {
+  height:53px
+}
+.pricing_details td,th { border:1px solid #DDD; padding:10px; empty-cells:show; }
+.pricing_details td,th {
+  text-align:left;
+}
+.pricing_details td+td, th+th {
+  text-align:center;
+  display:none;
+}
+.pricing_details td.default {
+  display:table-cell;
+}
+.pricing_details .bg-purple {
+  border-top:3px solid #A32362;
+}
+.pricing_details .bg-blue {
+  border-top:3px solid #0097CF;
+}
+.pricing_details .sep {
+  background:#F5F5F5;
+  font-weight:bold;
+}
+.pricing_details .txt-l { font-size:28px; font-weight:bold; }
+.pricing_details .txt-top { position:relative; top:-9px; left:-2px; }
+.pricing_details .tick { font-size:18px; color:#2CA01C; }
+.pricing_details .hide {
+  border:0;
+  background:none;
+}
+
+@media (min-width: 640px) {
+  .pricing_details ul {
+    display:none;
+  }
+  .pricing_details td,th {
+    display:table-cell !important;
+  }
+  .pricing_details td,th {
+    width: 330px;
+  
+  }
+  .pricing_details td+td, th+th {
+    width: auto;
+  }
+}
