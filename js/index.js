@@ -1,6 +1,6 @@
-particlesJS.load('particles-js', 'js/particlesjs-config.json', function() {
-  // console.log('callback - particles.js config loaded');
-});
+// particlesJS.load('particles-js', 'js/particlesjs-config.json', function() {
+//   // console.log('callback - particles.js config loaded');
+// });
 
 // Text Rotate
 var TxtRotate = function(el, toRotate, period) {

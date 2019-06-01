@@ -3,7 +3,10 @@
   background: #fbfbfd;
 }
 .pricing_banner {
-  background: #27094a;
+  /* background: #27094a; */
+  background: #000046;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #1CB5E0, #000046);
+	background: linear-gradient(to left, #1CB5E0, #000046);
   height: 90px;
 }
 .pricing .pricing_heading {
