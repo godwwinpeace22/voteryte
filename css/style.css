@@ -1,10 +1,29 @@
 html,
 body {
-    margin: 0;
-    font-size: 100%;
-    background: #fff;
-	font-family: 'Cabin', sans-serif;
+	margin: 0;
+	font-size: 100%;
+	background: #fff;
+	font-family: 'Avenir Next', Helvetica, sans-serif;
 }
+@font-face {
+	font-family: Avenir Next;
+	src: url(../fonts/avenir_next_pro_regular.otf);
+}
+@font-face {
+	font-family: Avenir Next;
+	src: url(../fonts/avenir_next_pro_bold.otf);
+	font-weight: bold;
+}
+@font-face {
+	font-family: Avenir Next;
+	src: url(../fonts/avenir_next_pro_it.otf);
+	font-style: italic;
+}
+@font-face {
+	font-family: Avenir Next Demi;
+	src: url(../fonts/avenir_next_pro_demi.otf);
+}
+
 
 html {
   scroll-behavior: smooth;
@@ -16,7 +35,7 @@ body a {
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Avenir Next', Helvetica, sans-serif;
 }
 
 body img {
@@ -98,8 +117,8 @@ div#logo {
 }
 
 #logo img {
-	width: 32px;
-	height: 32px;
+	width: 50px;
+	height: 50px;
 	margin: 2px 7px 11px 0;
 }
 #logo a {
@@ -141,15 +160,15 @@ nav ul {
 /* Positioning the navigation items inline */
 nav ul li {
 	margin: 0px;
-	display:inline-block;
-	float: left;
-	}
+	display: inline-block;
+	/* float: left; */
+}
 
 /* Styling the links */
 nav a {
-    color: #fff;
+    color: rgba(255, 255, 255, 0.7);
     text-transform: capitalize;
-    font-size: 16px;
+    font-size: 15px;
     letter-spacing: 1px;
 	padding: 10px 10px;
 }
@@ -176,7 +195,12 @@ nav ul ul {
 	/* has to be the same number as the "line-height" of "nav a" */
 	top: 30px; 
     background: #fff;
-    padding: 10px;
+	padding: 10px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
 }
 	
 /* Display Dropdowns on Hover */
@@ -321,12 +345,18 @@ li > a:only-child:after { content: ''; }
 	}
 	ul.inner-ul{
 		padding: 0!important;
+		
 	}
 	/* Hide Dropdowns by Default */
 	nav ul ul {
 		float: none;
 		position:static;
 		color: #ffffff;
+		border-radius: 4px;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		-ms-border-radius: 4px;
+		-o-border-radius: 4px;
 		/* has to be the same number as the "line-height" of "nav a" */
 	}
 		
@@ -361,14 +391,15 @@ li > a:only-child:after { content: ''; }
 }
 
 .login-icon a,.login-icon a:hover {
-    border: 2px solid #8bc34a;
+    border: 2px solid #fff;
     padding: 0.4em 1.7em;
-    color: #fff;
-    font-weight: 500;
+    color: #8BC34A;
+    font-weight: bold;
     letter-spacing: 1px;
     display: block;
-    font-size: 1em;
-    background: #8bc34a;
+	font-size: 1em;
+	font-family: 'Avenir Next Demi', Helvetica, sans-serif;
+    background: #fff;
     box-shadow: 0 0px 45px rgba(0, 0, 0, .2);
     border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -377,7 +408,7 @@ li > a:only-child:after { content: ''; }
     -o-border-radius: 3px;
 }
 .signin a,.signin a:hover {
-    border: 2px solid #cfcfd0;
+    border: 1px solid #cfcfd0;
     padding: 0.4em 1.7em;
     color: #fff;
     font-weight: 500;
@@ -390,10 +421,9 @@ li > a:only-child:after { content: ''; }
 /*--/banner-info--*/
 
 .banner {
-	/* background: #27094a; */
-	background: #000046;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #1CB5E0, #000046);
-	background: linear-gradient(to left, #1CB5E0, #000046);
+	/* background: #000046; */
+	/* background: -webkit-linear-gradient(to left, #1CB5E0, #000046); */
+	/* background: linear-gradient(to left, #1CB5E0, #000046); */
     position: relative;
     z-index: 10;
 }
@@ -402,23 +432,33 @@ li > a:only-child:after { content: ''; }
 .banner-info-grid h2 {
     color: #fff;
     display: inline-block;
-	font-size: 3.5em;
+	font-size: 2.3em;
 	font-weight: bold;
     text-transform: capitalize;
-	line-height: 65px;
+	line-height: 47px;
 	letter-spacing: 1px;
     /* text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37); */
 }
 .banner-info-grid p {
     font-size: 17px;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.7);
     margin: 2em 0;
+}
+.feature-title {
+	font-size: 18px;
+	font-family: 'Avenir Next Demi', Helvetica, sans-serif;
+}
+.feature-text {
+	font-size: 15px;
+	color: #878d91;
 }
 .slider-info a.btn {
     background: #8bc34a;
     padding: 10px 25px;
     color: #fff;
-    font-size: 15px;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Avenir Next Demi', Helvetica, sans-serif;
     letter-spacing: 1px;
     border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -457,6 +497,12 @@ li > a:only-child:after { content: ''; }
 	height: 100%;
 }
 
+@media (max-width: 770px){
+	#particles-js {
+		height: 77%;
+	}
+}
+
 /*-- about --*/
 .about-text h3{
     font-size: 27px;
@@ -483,13 +529,44 @@ li > a:only-child:after { content: ''; }
 
 /*-- why choose us --*/
 h2.heading,h3.heading {
-    font-size: 36px;
-    color: #333;
+    font-size: 32px;
     text-transform: capitalize;
-    letter-spacing: 0;
+	letter-spacing: 0;
+	color: #384248;
+	font-family: 'Avenir Next Demi', Helvetica, sans-serif;
 }
-.choose,.video{
+.how-it-works {
 	background: #f8f9fa;
+}
+.how-it-works h5{
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Avenir Next Demi', Helvetica, sans-serif;
+	line-height: 19px;
+}
+.how-it-works p {
+	color: rgb(135, 141, 145);
+	line-height: 19px;
+	font-size: 14px;
+	margin-top: 6px;
+}
+.how-it-works .section-heading {
+	font-family: 'Avenir Next Demi', Helvetica, sans-serif;
+	color: #384248;
+	font-size: 30px;
+	line-height: 40px;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+.how-it-works .icon {
+	background: #2196F3;
+    padding: 3px;
+    border-radius: 50%;
+    color: #fff;
+}
+.how-it-works .fa {
+	padding-top: 4px;
+	padding-left: 5px;
 }
 .f1 h3 {
     font-size: 25px;
@@ -538,12 +615,12 @@ h2.heading,h3.heading {
 	background: #8bc34a;
 	color: #fff;
 }
-.try-facevote {
+.try-voteryte {
 	padding: 90px;
 	background: #1d74f5;;
 }
 
-.try-facevote h2 {
+.try-voteryte h2 {
 	font-size: 2.5rem;
 	font-weight: 800;
 	color: #fff;
@@ -551,30 +628,30 @@ h2.heading,h3.heading {
 	text-align: center;
 	margin: 0 auto 12px;
 }
-.try-facevote span {
+.try-voteryte span {
 	display: block;
 	text-align: center;
 	margin: auto;
 	font-size: 1.4rem;
 	color: #d4d4d4;
 }
-.try-facevote .btn {
+.try-voteryte .btn {
 	display: inline-block;
 	text-align: center;
 	background: orange;
 	color: #fff;
 }
-.try-facevote .schedule {
+.try-voteryte .schedule {
 	background: #fff;
 	color: #1d74f5;
 }
 
 @media (max-width: 400px){
-	.try-facevote {
+	.try-voteryte {
 		padding: 32px;
 	}
-	.try-facevote h2 {
-		font-size: 2rem;
+	.try-voteryte h2 {
+		font-size: 1.9rem;
 	}
 }
 
@@ -882,16 +959,16 @@ a.move-top span{
 
 @media(max-width:1366px) {
 	.banner-info-grid h2 {
-		font-size: 2.7em;
-		line-height: 60px;
+		font-size: 2.3em;
+		line-height: 47px;
 	}
 	
 }
 
 @media(max-width:1080px) {
 	.banner-info-grid h2 {
-		font-size: 2.8em;
-		line-height: 55px;
+		font-size: 2.3em;
+		line-height: 47px;
 	}
 	.banner-info-grid p {
 		font-size: 15px;
@@ -931,7 +1008,7 @@ a.move-top span{
 		font-size: 15px;
 	}
 	h4.feed-title {
-		font-size: 20px;
+		font-size: 18px;
 	}
 }
 
@@ -985,8 +1062,8 @@ a.move-top span{
 		float: none;
 	}
 	.banner-info-grid h2 {
-		font-size: 2.5em;
-		line-height: 50px;
+		font-size: 2.3em;
+		line-height: 46px;
 	}
 	.information h4 {
 		font-size: 20px;
@@ -1132,7 +1209,7 @@ a.move-top span{
 		line-height: 30px;
 	}
 	h2.heading,h3.heading {
-		font-size: 30px;
+		font-size: 26px;
 	}
 	.footer-title {
 		font-size: 18px;

@@ -1,2 +1,2 @@
-# facevote-home
-Facevote Home Page
+# voteryte-home
+Voteryte Home Page
