@@ -444,6 +444,52 @@ li > a:only-child:after { content: ''; }
     color: rgba(255, 255, 255, 0.7);
     margin: 2em 0;
 }
+
+.wave {
+	height: 200px;
+	margin-top: -120px;
+	background: transparent;
+	position: relative;
+	z-index: 10;
+	transform: rotateY(180deg);
+}
+.wave-home{
+	margin-top: -180px;
+	z-index: 9;
+	background: #000046;
+	background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
+	background: linear-gradient(to right, #1CB5E0, #000046);
+}
+.wave-product {
+	margin-top: -10px;
+	z-index: 10;
+	background: #000046;
+	background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
+	background: linear-gradient(to right, #1CB5E0, #000046);
+}
+.wave img {
+	height: 100%;
+	width: 100%;
+}
+@media (max-width: 770px){
+	.wave-home {
+		margin-top: -24px;
+	}
+}
+@media (max-width: 400px){
+	.wave {
+		height: 120px;
+		margin-top: -68px;
+		background: none;
+	}
+	.wave img {
+		height: 100%;
+	}
+	.wave-product {
+		margin-top: -67px;
+	}
+	
+}
 .feature-title {
 	font-size: 18px;
 	font-family: 'Avenir Next Demi', Helvetica, sans-serif;
@@ -480,10 +526,16 @@ li > a:only-child:after { content: ''; }
     -ms-transition: 0.5s all;
 }
 .banner-text {
-    padding: 12vw 0 7vw;
+    padding: 11vw 0 12vw;
 }
-.banner-image h4 {
-    font-size: 20px;
+.banner-image img{
+    height: 350px;
+}
+
+@media (max-width: 770px){
+	.banner-image img {
+		height: 220px;
+	}
 }
 
 #particles-js {
@@ -499,7 +551,13 @@ li > a:only-child:after { content: ''; }
 
 @media (max-width: 770px){
 	#particles-js {
-		height: 77%;
+		height: 81%;
+	}
+}
+
+@media (max-width: 400px){
+	#particles-js {
+		height: 99%;
 	}
 }
 
@@ -560,13 +618,15 @@ h2.heading,h3.heading {
 }
 .how-it-works .icon {
 	background: #2196F3;
-    padding: 3px;
+    /* padding: 3px; */
     border-radius: 50%;
-    color: #fff;
+		color: #fff;
+		width: 45px;
+		height: 45px;
 }
 .how-it-works .fa {
-	padding-top: 4px;
-	padding-left: 5px;
+	padding-top: 10px;
+	padding-left: 11px;
 }
 .f1 h3 {
     font-size: 25px;
@@ -871,56 +931,56 @@ a.move-top span{
 	border-radius: 5px;
 }
 .slide1 {
-	background: url('/images/election-not-started.png')no-repeat center;
+	background: url('../images/election-not-started.png')no-repeat center;
 	background-size: cover;
 	animation:fade 8s infinite;
   	-webkit-animation:fade 8s infinite;
 }
 .slide2 {
-	background: url('/images/contestants-ranking.png')no-repeat center;
+	background: url('../images/contestants-ranking.png')no-repeat center;
 	background-size: cover;
 	animation:fade2 8s infinite;
   	-webkit-animation:fade2 8s infinite;
 }
 .slide3 {
-	background: url('/images/contestants.png')no-repeat center;
+	background: url('../images/contestants.png')no-repeat center;
 	background-size: cover;
 	animation:fade3 8s infinite;
   	-webkit-animation:fade3 8s infinite;
 }
 .slide4 {
-	background: url('/images/live-results.png')no-repeat center;
+	background: url('../images/live-results.png')no-repeat center;
 	background-size: cover;
 	animation:fade 8s infinite;
   	-webkit-animation:fade 8s infinite;
   
 } 
 .slide5 {
-	background: url('/images/results-each-role.png')no-repeat center;
+	background: url('../images/results-each-role.png')no-repeat center;
 	background-size: cover;
 	animation:fade2 8s infinite;
   	-webkit-animation:fade2 8s infinite;
 }
 .slide6 {
-	background: url('/images/results-charts.png')no-repeat center;
+	background: url('../images/results-charts.png')no-repeat center;
 	background-size: cover;
 	animation:fade3 8s infinite;
   	-webkit-animation:fade3 8s infinite;
 }
 .slide7 {
-	background: url('/images/manager-overview.png')no-repeat center;
+	background: url('../images/manager-overview.png')no-repeat center;
 	background-size: cover;
 	animation:fade 8s infinite;
   	-webkit-animation:fade 8s infinite;
 }
 .slide8 {
-	background: url('/images/manager-voters.png')no-repeat center;
+	background: url('../images/manager-voters.png')no-repeat center;
 	background-size: cover;
 	animation:fade2 8s infinite;
   	-webkit-animation:fade2 8s infinite;
 }
 .slide9 {
-	background: url('/images/manager-contestants.png')no-repeat center;
+	background: url('../images/manager-contestants.png')no-repeat center;
 	background-size: cover;
 	animation:fade3 8s infinite;
   	-webkit-animation:fade3 8s infinite;
@@ -1180,6 +1240,9 @@ a.move-top span{
 	}
 	.banner-text {
 		padding: 30vw 0 8vw;
+	}
+	.banner-text.product-text {
+		padding: 30vw 0 30vw;
 	}
 	ul.links li a {
 		font-size: 15px !important;

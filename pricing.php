@@ -2,19 +2,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117131997-3"></script>
-<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117131997-3"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
 
-	gtag('config', 'UA-117131997-3');
-</script>
-<title>Pricing | Voteryte</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="elections, vote, voting, contest, contestants, register, enroll, 
-	transparent elections, secure elections, poll, onlinep poll" />
+		gtag('config', 'UA-117131997-3');
+	</script>
+	<title>Pricing | Voteryte</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="elections, vote, voting, contest, contestants, register, enroll, 
+		transparent elections, secure elections, poll, onlinep poll" />
 	<link rel="shortcut icon" href="images/logo-50x50.png" />
 	<!-- css files -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -31,39 +31,7 @@
 
 
 <!-- Header -->
-<header class="py-4">
-	<div class="container">
-			<div id="logo">
-				<h1> <a href="/"><img src="images/logo-50x50.png" alt="" srcset=""> Voteryte</a></h1>
-			</div>
-		<!-- nav -->
-		<nav class="d-lg-flex">
-
-			<label for="drop" class="toggle"><span class="fa fa-bars" aria-hidden="true"></span></label>
-			<input type="checkbox" id="drop" />
-			<ul class="menu mt-2 ml-auto">
-				<li class="">
-					<label for="drop-2" class="toggle">Product</label>
-					<a href="#">Product </span></a>
-					<input type="checkbox" id="drop-2"/>
-					<ul class="inner-ul">
-						<li><a href="product.html">Overview</a></li>
-						<li><a href="contestants.html">For contestants</a></li>
-					</ul>
-				</li>
-				<li class="" ><a href="/pricing.html" id="pricing-nav">Pricing</a></li>
-				<li class=""><a href="/contact.html">Contact</a></li>
-			</ul>
-			<div class="login-icon signin ml-lg-2">
-				<a class="user" href="https://app.voteryte.com/login"> Login</a>
-			</div>
-			<div class="login-icon ml-lg-2">
-				<a class="user" href="https://app.voteryte.com/signup"> SIGN UP</a>
-			</div>
-		</nav>
-		<div class="clear"></div>
-	</div>
-</header>
+<?php require 'inc/header.php' ?>
 
 <div class="banner pricing_banner" id="top">
 
@@ -303,115 +271,11 @@
 </div>
 
 
-<!-- Try voteryte -->
-<section class="try-voteryte">
-	<div class="container">
-		
-		<h2>Ready to create your elections?</h2>
-		<span class="subtitle">Sign up for free. No credit card required</span>
-		<div class="d-table cta mx-auto my-4">
-			<a class="btn btn-lg mr-2 text-capitalize" href="https://app.voteryte.com/signup">Get Started</a>
-		</div>
-	</div>
-</section>
-
+<!-- try-voteryte -->
+<?php require 'inc/try-voteryte.php' ?>
 
 <!-- footer -->
-<footer class="py-5">
-	<div class="container pt-lg-3">
-		<div class="row footer-top">
-			<div class="col-lg-2 col-sm-6 mt-sm-0 mt-4 mb-sm-5 mb-lg-0">
-				<h3 class="footer-title text-uppercase mb-4">Product</h3>
-				<ul class="links list-unstyled">
-					<li>
-						<a class="" href="/"> Home</a>
-					</li>
-					<li>
-						<a class="" href="/product.html"> Product</a>
-					</li>
-					<li>
-						<a class="" href="/contestants.html"> Contestants</a>
-					</li>
-					<li>
-						<a class="" href="/pricing.html">Pricing</a>
-					</li>
-				</ul>
-				<a title="Realtime application protection" href="https://www.sqreen.com/?utm_source=badge"><img style="width:109px;height:36px" src="https://s3-eu-west-1.amazonaws.com/sqreen-assets/badges/20171107/sqreen-light-badge.svg" alt="Sqreen | Runtime Application Protection" /></a>
-
-			</div>
-			<div class="col-lg-3 col-sm-6 mt-sm-0 mt-4 mb-3">
-				<h3 class="footer-title text-uppercase mb-4">Company</h3>
-				<ul class="links list-unstyled">
-					<li>
-						<a class="" href="/about.html"> About</a>
-					</li>
-					<li>
-						<a class="" href="/privacy.html"> Privacy</a>
-					</li>
-					<li>
-						<a class="" href="/terms.html"> Terms</a>
-					</li>
-					<li>
-						<a class="" href="/contact.html">Contact</a>
-					</li>
-				</ul>
-			</div>
-			<div class="col-lg-3 col-sm-6 mt-sm-0 mt-4">
-				<h3 class="footer-title text-uppercase mb-4">Support</h3>
-				<ul class="links list-unstyled">
-					<li>
-						<a class="" href="/faq.html"> FAQ</a>
-					</li>
-					<li>
-						<a class="" href="https://app.voteryte.com/login"> Login</a>
-					</li>
-					<li>
-						<a class="" href="https://app.voteryte.com/signup">Sign Up</a>
-					</li>
-				</ul>
-			</div>
-			<div class="col-lg-3 col-sm-6 mt-sm-0 mt-4">
-				<h3 class="footer-title text-uppercase mb-4">Contact Us</h3>
-				<div class="contact-info">
-					<div class="">
-						<!-- <h4 class="mb-2"> <span class="fa mr-1 fa-map-marker"></span> Location</h4> -->
-						<p>8 Akunwafor close, N/H Extension, Enugu</p>
-					</div>
-					<div class=" my-3">
-						<!-- <h4 class="mb-2"><span class="fa mr-1 fa-phone"></span> Phone</h4> -->
-						<p><span class="fa pr-2 fa-phone"></span>+234 703 156 5125</p>
-					</div>
-					<div class="mb-3">
-						<!-- <h4 class="mb-2"><span class="fa mr-1 fa-envelope-open"></span> Email</h4> -->
-						<p><span class="fa pr-2 fa-envelope-open"></span><a href="mailto:hello@voteryte.com">hello@voteryte.com</a></p>
-						
-					</div>
-					<div>
-						<p>
-							<a href=""><span class="fa mr-1 fa-facebook"></span></a>
-							<a href=""><span class="fa mr-1 fa-twitter"></span></a>
-							<a href=""><span class="fa mr-1 fa-linkedin"></span></a>
-						</p>
-					</div>
-				</div>
-			</div>
-			
-		</div>
-	</div>
-</footer>
-
-<!-- copyright -->
-<div class="copy-right-top">
-	<p class="copy-right text-center py-1">&copy; 2019 Voteryte. All Rights Reserved 
-	</p>
-</div>	
-	
-<!-- move top -->
-<div class="move-top text-right">
-	<a href="#top" class="move-top"> 
-		<span class="fa fa-angle-up  mb-3" aria-hidden="true"></span>
-	</a>
-</div>
+<?php require 'inc/footer.php' ?>
 
 <script>
 	$( "ul" ).on( "click", "li", function() {
@@ -442,11 +306,5 @@
 	doSomething(mediaQuery);
 </script>
 
-<script>
-  window.fcWidget.init({
-    token: "32e27b95-4d23-40ff-9d13-8eb0778ec5d2",
-    host: "https://wchat.freshchat.com"
-  });
-</script>
 </body>
 </html>
