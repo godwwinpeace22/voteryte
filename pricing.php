@@ -2,30 +2,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117131997-3"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
+	<?php require 'inc/head-stuff.php' ?>
 
-		gtag('config', 'UA-117131997-3');
-	</script>
 	<title>Pricing | Voteryte</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="keywords" content="elections, vote, voting, contest, contestants, register, enroll, 
-		transparent elections, secure elections, poll, onlinep poll" />
-	<link rel="shortcut icon" href="images/logo-50x50.png" />
-	<!-- css files -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="css/style.css" rel='stylesheet' type='text/css' />
-    <link href="css/pricing.css" rel='stylesheet' type='text/css' />
-		<!-- <link href="css/font-awesome.min.css" rel="stylesheet"> -->
-		<script src="https://use.fontawesome.com/2b56de2d6b.js"></script>
-		<link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+    
+  <link href="css/pricing.css" rel='stylesheet' type='text/css' />
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	<script src="https://wchat.freshchat.com/js/widget.js"></script>
+
 </head>
 <body>
 
@@ -67,7 +51,7 @@
 								<h3 class="plan-amount ">NGN 8</h3>
 								<span><i>per voter, per election</i></span>
 							</div>
-							<a href="https://app.voteryte.com/signup" class="btn btn-pricing btn-lg btn-block">Get Started</a>
+							<a href="https://app.voteryte.com/#/signup" class="btn btn-pricing btn-lg btn-block">Get Started</a>
 						</div>
 					</div>
 					<div class="col-lg-4 col-sm-6 mt-sm-0 mt-4">
@@ -79,7 +63,7 @@
 								<h3 class="plan-amount ">Coming Soon</h3>
 								<span><i> &nbsp;</i></span>
 							</div>
-							<a href="/contact.html" class="btn btn-pricing btn-lg btn-block">Contact Us</a>
+							<a href="/contact" class="btn btn-pricing btn-lg btn-block">Contact Us</a>
 						</div>
 					</div>
 				</div>
@@ -201,7 +185,7 @@
 									<h3 class="plan-amount ">NGN 5,000</h3>
 									<span><i>per month</i></span>
 								</div>
-								<a href="https://app.voteryte.com/signup" class="btn btn-pricing btn-lg btn-block">Start free for 14 days</a>
+								<a href="https://app.voteryte.com/#/signup" class="btn btn-pricing btn-lg btn-block">Start free for 14 days</a>
 							</div>
 						</div>
 				</div>
@@ -260,7 +244,7 @@
 				<div class="col-md-10 col-lg-6 card mb-4">
 					<div class="card-body">
 						<h5 class="card-title">How do I report issues and get support?</h5>
-						<p class="card-text">We are here to help. Feel free to <a href="/contact.html">contact 	us</a> if you face any challenges or need help.</p>
+						<p class="card-text">We are here to help. Feel free to <a href="/contact">contact 	us</a> if you face any challenges or need help.</p>
 						
 					</div>
 				</div>

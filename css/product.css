@@ -6,6 +6,7 @@
 
   /* background: #1d74f5; */
 }
+
 .banner-info-grid h2 {
   text-shadow: none;
   font-weight: bold;
@@ -51,4 +52,14 @@
     position: absolute;
     top: 13px;
     left: 0;
+}
+
+.product-text {
+  padding: 18vw 0 0vw ;
+}
+@media (max-width: 1080px) {
+
+  .product-text {
+    padding: 18vw 0 6vw;
+  }
 }

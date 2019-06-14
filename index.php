@@ -2,28 +2,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117131997-3"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', 'UA-117131997-3');
-	</script>
+	
+	<?php require 'inc/head-stuff.php' ?>
+	
 	<title>Secure, Transparent Online Elections | Voteryte</title>
-	<!-- for-mobile-apps -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="keywords" content="elections, vote, voting, contest, contestants, register, enroll, 
-		transparent elections, secure elections, poll, online, poll" />
-	<link rel="shortcut icon" href="images/logo-50x50-w.png" />
-	<!-- css files -->
-		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-		<link href="css/style.css" rel='stylesheet' type='text/css' />
-		<!-- <link href="css/font-awesome.min.css" rel="stylesheet"> -->
-		<script src="https://use.fontawesome.com/2b56de2d6b.js"></script>
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+
 	<script src="js/particles.min.js"></script>
 	<script src="js/index.js"></script>
 </head>
@@ -50,7 +33,7 @@
 						your elections in minutes, not months.
 					</p>
 				</div>
-				<a class="btn mr-2 text-capitalize" href="https://app.voteryte.com/signup">Create Your Election</a>
+				<a class="btn mr-2 text-capitalize" href="https://app.voteryte.com/#/signup">Create Your Election</a>
 			</div>
 			<div class="col-lg-7 col-md-8 mt-lg-0 mt-sm-5 mt-3 text-lg-center banner-image">
 				<img src="images/product.png" alt="" class="img-fluid"/>
@@ -121,13 +104,7 @@
 				<h4 class="feature-title my-md-3 mb-3 text-center">Voter Verification</h4>
 				<p class="text-center feature-text"> Our verification methods ensure that all voters are identified and can only vote once.</p>
 			</div>
-			<!-- <div class="col-lg-3 col-md-6 mt-lg-4 mt-sm-5 mt-4">
-				<div class="features-each-img mb-5 mb-sm-0">
-					<img src="images/reminders.svg" alt="" class="img-fluid">
-				</div>
-				<h4 class="feature-title my-md-3 mb-3 text-center">Reminders</h4>
-				<p class="text-center feature-text"> Send email reminders to voters about the election or create a broadcast message.</p>
-			</div> -->
+			
 		</div>
 	</div>
 </section>
@@ -204,6 +181,7 @@
 							</div>
 						</div>
 					</div>
+					<a class="btn btn-primary mr-2 text-capitalize" href="/product">Learn More</a>
 				</div>
 			</div>
 		</div>

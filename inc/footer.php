@@ -42,16 +42,16 @@
 				<h3 class="footer-title text-uppercase mb-4">Support</h3>
 				<ul class="links list-unstyled">
 					<li>
-						<a class="" href="https://voteryte.freshdesk.com">Helpdesk</a>
+						<a class="" href="https://support.voteryte.com">Helpdesk</a>
 					</li>
 					<li>
 						<a class="" href="/faq"> FAQ</a>
 					</li>
 					<li>
-						<a class="" href="https://app.voteryte.com/login"> Login</a>
+						<a class="" href="https://app.voteryte.com/#/login"> Login</a>
 					</li>
 					<li>
-						<a class="" href="https://app.voteryte.com/signup">Sign Up</a>
+						<a class="" href="https://app.voteryte.com/#/signup">Sign Up</a>
 					</li>
 				</ul>
 			</div>

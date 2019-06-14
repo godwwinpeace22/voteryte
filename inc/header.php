@@ -21,14 +21,14 @@
 				</li>
 				<li class=""><a href="/pricing">Pricing</a></li>
 				<li class=""><a href="/contact">Contact</a></li>
-        <li class="d-lg-none" ><a class="user" href="https://app.voteryte.com/login"> Login</a></li>
-        <li class="d-lg-none"><a class="user" href="https://app.voteryte.com/signup"> SIGN UP</a></li>
+        <li class="d-lg-none" ><a class="user" href="https://app.voteryte.com/#/login"> Login</a></li>
+        <li class="d-lg-none"><a class="user" href="https://app.voteryte.com/#/signup"> Sign Up</a></li>
 			</ul>
 			<div class="login-icon signin ml-lg-2 d-none d-md-block">
-				<a class="user" href="https://app.voteryte.com/login"> Login</a>
+				<a class="user" href="https://app.voteryte.com/#/login"> Login</a>
 			</div>
 			<div class="login-icon ml-lg-2 d-none d-md-block">
-				<a class="user" href="https://app.voteryte.com/signup"> SIGN UP</a>
+				<a class="user" href="https://app.voteryte.com/#/signup"> SIGN UP</a>
 			</div>
     </nav>
     

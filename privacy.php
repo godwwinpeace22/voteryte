@@ -2,26 +2,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117131997-3"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
+	<?php require 'inc/head-stuff.php' ?>
 	
-		gtag('config', 'UA-117131997-3');
-	</script>
 	<title>Privacy Policy | Voteryte</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="keywords" content="elections, vote, voting, contest, contestants, register, enroll, 
-		transparent elections, secure elections, poll, online poll" />
-	<link rel="shortcut icon" href="images/logo-50x50.png" />
-	<!-- css files -->
-    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-    <link href="css/style.css" rel='stylesheet' type='text/css' />
-		<!-- <link href="css/font-awesome.min.css" rel="stylesheet"> -->
-		<script src="https://use.fontawesome.com/2b56de2d6b.js"></script>
-		<link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+	
 	<style>
 		.terms {
 			padding: 8vw 0 3vw;

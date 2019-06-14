@@ -2,19 +2,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<?php require 'inc/head-stuff.php' ?>
 	<title>Secure, Transparent Online Elections | Voteryte</title>
-	<!-- for-mobile-apps -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="keywords" content="elections, vote, voting, contest, contestants, register, enroll, 
-		transparent elections, secure elections, poll, onlinep poll" />
-	<link rel="shortcut icon" href="images/logo-50x50.png" />
-	<!-- css files -->
-		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-		<link href="css/style.css" rel='stylesheet' type='text/css' />
-		<!-- <link href="css/font-awesome.min.css" rel="stylesheet"> -->
-		<script src="https://use.fontawesome.com/2b56de2d6b.js"></script>
-		<link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+	
 </head>
 <body>
 
