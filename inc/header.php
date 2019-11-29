@@ -4,7 +4,7 @@
 
 	<div class="container">
 		<nav class="navbar navbar-expand-lg navbar-dark">
-			<a class="navbar-brand" href="#">
+			<a class="navbar-brand" href="/">
 				<img src="images/logo-50x50.png" width="30" height="30" class="d-inline-block align-top" alt="">
 				Voteryte
 			</a>
@@ -15,7 +15,7 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item active ml-3 mr-3">
-						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
 					</li>
 					
 					<li class="nav-item dropdown mr-3">
