@@ -1,0 +1,16 @@
+.nav-wrapper, .navbar {
+  background: #092f47;
+}
+.signup {
+  background: #ffc107;
+  padding: 1px 15px;
+  color: black;
+}
+.signup .nav-link {
+  color: black !important;
+}
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}

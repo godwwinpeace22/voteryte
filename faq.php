@@ -8,7 +8,7 @@
 	<style>
 		.faq-banner {
 			height: 100px;
-			background: #27094a;
+			background: #092f47;
 		}
 	</style>
 </head>

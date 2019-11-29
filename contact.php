@@ -19,7 +19,7 @@ if(isset($_POST['submit'])){
 <head>
 	<?php require 'inc/head-stuff.php' ?>
 	<title>Contact Us | Voteryte</title>
-		
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 		<style>
 			#contact-nav {
 				border-bottom: 2px solid #8bc34a;
@@ -48,25 +48,40 @@ if(isset($_POST['submit'])){
 		<div class="row contact_information">
 				<div class="col-md-6 mt-md-0 mt-4">
 					<div class="contact_right card p-lg-5 p-4">
+
 						<form name="contact" method="POST" action="">
-							<div class="">
-								<!-- <h3 class="mb-3">Contact form</h3> -->
-								<input type="text" name="name" placeholder="Your Full Name" required="">
-								<input type="email" name="mail" placeholder="Your Email" required="">
-								<input type="text" id="whoareyou" name="webu"/>
-								<input type="text" name="phone" placeholder="Phone Number">
-								<textarea name="message" placeholder="Your Message Here..." required=""></textarea>
+							<div class="form-row">
+								<div class="form-group col-md-10">
+									<label for="name">Your name</label>
+									<input type="text" class="form-control" name="name" id="name" placeholder="Name" required>
+								</div>
 							</div>
-							<div class="">
-								<button type="submit" name="submit">Submit</button>
+							<div class="form-row">
+								<div class="form-group col-md-4">
+									<label for="phone">Phone</label>
+									<input type="text" id="phone" name="phone" placeholder="Phone Number" class="form-control">
+								</div>
+								<div class="form-group col-md-6">
+									<label for="email">Your email</label>
+									<input type="email" name="mail" class="form-control" id="email" placeholder="" required>
+									<input type="text" id="whoareyou" name="webu"/>
+								</div>
 							</div>
-							<div class="clearfix"> </div>
+							<div class="form-row">
+								
+								<div class="form-group col-md-10">
+									<label for="message">Your message</label>
+									<textarea name="message" class="form-control" height="300px" placeholder="Your Message Here..." required></textarea>
+								</div>
+							</div>
+							<div class="g-recaptcha" data-sitekey="6Ld5dLMUAAAAACWlZHd88CZwbU9_cXhbxB9ghvaa"></div> <br/>
+							<button type="submit" name="submit" class="btn btn-primary">Submit</button>
 						</form>
 					</div>
 				</div>
 			<div class="col-md-6 contact_left">
 				<div class="contact_border p-4">
-					<img src="images/contact-us.svg" alt="contact_us">
+					<img src="images/contact-us.svg" alt="contact_us" class="img-fluid">
 				</div>
 			</div>
 			

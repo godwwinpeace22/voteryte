@@ -1,65 +1,62 @@
-.banner {
-  background: #27094a;
-  background: #000046;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  /* background: #1d74f5; */
+.nav-wrapper, .navbar {
+  background: #ffc107 !important;
+  color: #000;
 }
-
-.banner-info-grid h2 {
-  text-shadow: none;
-  font-weight: bold;
+.navbar a {
+  color: #000 !important;
 }
-#product-nav {
-  border-bottom: 2px solid #8bc34a;
+.signup a {
+  background: #fff;
+  padding: 0.5rem 2rem !important;
 }
-
-.product-features:nth-of-type(even) {
-  background: #f8f9fa;
-}
-.section-heading {
-  font-size: 2rem;
-  font-weight: 700;
-  line-height: 2.5rem;
-  color: #233142;
-}
-
-@media (max-width: 400px){
-  .section-heading {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-  section {
-    padding: 0 15px;
-  }
-}
-.section-lists li {
-  font-size: 1.15rem;
-  line-height: 1.7;
+.hero {
+  background: #ffc107;
+  padding: 4em 0;
   position: relative;
-  text-align: left;
-  color: #615274;
-  padding-left: 30px;
+  overflow: hidden;
 }
-.section-lists li::before {
+.hero-title {
+  font-size: 2.8rem;
+}
+.cta-create-election {
+  color: #000;
+  font-weight: bold;
+  border-radius: unset;
+}
+.cta-create-election:hover {
+  color: #ffc107;
+}
+.cta-live-demo:hover {
+  color: #000;
+  border-radius: unset;
+}
+.cta-live-demo:hover {
+  color: #ffc107;
+}
+
+/* Product Features */
+.features:nth-of-type(odd) {
+  background: #f3f3f3;
+}
+.section-title:after {
+  position: absolute;
+  left: 15px;
+  top: 48px;
+  background: #8BC34A;
+  background: linear-gradient(135deg,#8BC34A 45%,#FFEB3B 70%);
   content: "";
-    width: 7px;
-    height: 7px;
-    display: block;
-    background-color: #4842B7;
-    border-radius: 50%;
-    position: absolute;
-    top: 13px;
-    left: 0;
+  width: 166px;
+  height: 1px;
+}
+.features .section-title {
+  color: #8BC34A;
 }
 
-.product-text {
-  padding: 18vw 0 0vw ;
-}
-@media (max-width: 1080px) {
+@media screen and (min-width: 992px){
 
-  .product-text {
-    padding: 18vw 0 6vw;
+  .features-2 img {
+    position: relative;
+    right: -119px;
   }
+
 }

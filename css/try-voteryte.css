@@ -1,0 +1,65 @@
+.try-voteryte {
+  /* background: #092f47; */
+  background: #8bc34a;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 4em;
+  color: #fff;
+  padding-bottom: 2em;
+}
+.try-voteryte-right-shape {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.try-voteryte-right-shape::before {
+  content: "";
+  width: 300px;
+  height: 150px;
+  background: rgba(255,255,255,0.1);
+  position: absolute;
+  left: -90px;
+  top: 0;
+  border-radius: 6px;
+  -webkit-transform: skew(25deg, -12deg);
+  transform: skew(25deg, -12deg);
+  -moz-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+}
+.try-voteryte-right-shape::after {
+  content: "";
+  width: 150px;
+  height: 600px;
+  background: rgba(255,255,255,0.15);
+  position: absolute;
+  left: 0px;
+  top: 30px;
+  border-radius: 4px;
+  -webkit-transform: skew(-25deg, 10deg);
+  transform: skew(-25deg, 10deg);
+  -moz-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+}
+
+.get-started {
+  background: #ffffff;
+}
+.get-started:hover {
+  color: #000;
+}
+.cta-try-voteryte .btn {
+  font-weight: bold !important;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  /* background: #ffffff; */
+}
+.content {
+  position: relative;
+  z-index: 2;
+}

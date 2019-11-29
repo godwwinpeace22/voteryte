@@ -1,0 +1,132 @@
+body {
+  font-family: 'Rubik', sans-serif;
+}
+.nav-wrapper, .navbar {
+  background: #b5762c;
+}
+.hero {
+  background: #b5762c;
+  padding: 4em 0;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.hero-left-shape {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.hero-left-shape::before {
+  content: "";
+  width: 300px;
+  height: 150px;
+  background: rgba(255,255,255,0.1);
+  position: absolute;
+  left: -90px;
+  top: 0;
+  border-radius: 6px;
+  -webkit-transform: skew(25deg, -12deg);
+  transform: skew(25deg, -12deg);
+  -moz-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+}
+.hero-left-shape::after {
+  content: "";
+  width: 150px;
+  height: 600px;
+  background: rgba(255,255,255,0.15);
+  position: absolute;
+  left: 0px;
+  top: 30px;
+  border-radius: 4px;
+  -webkit-transform: skew(-25deg, 10deg);
+  transform: skew(-25deg, 10deg);
+  -moz-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+}
+
+.hero-right-shape {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+}
+.hero-right-shape::before {
+  content: "";
+  width: 300px;
+  height: 150px;
+  background: rgba(255,255,255,0.1);
+  position: absolute;
+  right: -90px;
+  bottom: -42px;
+  border-radius: 6px;
+  -webkit-transform: skew(25deg, -12deg);
+  transform: skew(25deg, -12deg);
+  -moz-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+}
+.hero-title {
+  font-size: 2.5rem;
+}
+.cta-get-started {
+  background: #ffc107;
+  color: #000;
+  font-weight: bold;
+  border-radius: 0px;
+  padding: 15px;
+}
+.cta-get-started:hover {
+  color: #fff !important;
+}
+.value-1 {
+  position: relative;
+  overflow: hidden;
+}
+.value-img-container {
+  height: 409px;
+}
+.value-img-container img {
+  height: 100%;
+  display: block;
+  margin-left: auto;
+}
+#spotlight {
+  color: #8BC34A;
+}
+.value-1-left-shape:after {
+  background: #f3f3f3;
+}
+
+
+/* Product Features */
+.product-features h5 {
+  color: #707070;
+  font-size: 16px;
+  letter-spacing: normal;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.product-features p {
+  font-size: 15px;
+  color: #383838;
+  margin-bottom: 20px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+.icon .fa, .icon .fas {
+  font-size: 48px;
+  color: #1868c2;
+}
+
+.product-features:nth-of-type(odd) {
+  background: #f3f3f3;
+}

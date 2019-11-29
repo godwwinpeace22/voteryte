@@ -22,9 +22,9 @@
   background: #8BC34A;
   color: #fff;
 }
-.subtitle {
+/* .subtitle {
   color: #8f8f8f;
-}
+} */
 
 .pricing-faq {
   padding: 3vw;
@@ -127,4 +127,8 @@
   .pricing_details td+td, th+th {
     width: auto;
   }
+}
+
+.pricing-faq a {
+  color: #4141ab;
 }

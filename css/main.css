@@ -1,0 +1,121 @@
+.hero {
+  background: #092f47;
+  padding: 4em 0;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.hero-right-shape {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.hero-right-shape::before {
+  content: "";
+  width: 300px;
+  height: 150px;
+  background: rgba(255,255,255,0.1);
+  position: absolute;
+  left: -90px;
+  top: 0;
+  border-radius: 6px;
+  -webkit-transform: skew(25deg, -12deg);
+  transform: skew(25deg, -12deg);
+  -moz-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+}
+.hero-right-shape::after {
+  content: "";
+  width: 150px;
+  height: 600px;
+  background: rgba(255,255,255,0.15);
+  position: absolute;
+  left: 0px;
+  top: 30px;
+  border-radius: 4px;
+  -webkit-transform: skew(-25deg, 10deg);
+  transform: skew(-25deg, 10deg);
+  -moz-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+}
+.cta-create-election {
+  background: #ffc107;
+  color: #000;
+  font-weight: bold;
+}
+.cta-live-demo {
+  background: #ffffff;
+  color: #000;
+  font-weight: bold;
+}
+.cta-live-demo:hover {
+  color: #ffc107;
+}
+
+.txt-rotate {
+  min-height: 40px;
+  display: block;
+  color: #8BC34A;
+}
+
+
+/* FEATURES */
+.features-heading {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.features-each-img {
+  width: 45%;
+  height: 115px;
+  margin: auto;
+}
+.feature-title {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+
+/* HOW IT WORKS */
+.how-it-works {
+  background: #fbfbfb;
+}
+.how-it-works img {
+  height: 400px;
+}
+.how-it-works .section-heading {
+  font-size: 22px;
+}
+
+.how-it-works h5 {
+  font-size: 16px;
+  color: #666;
+}
+.how-it-works .icon {
+  background: #2196F3;
+  border-radius: 50%;
+  color: #fff;
+  width: 45px;
+  height: 45px;
+}
+.how-it-works .fa {
+  padding-top: 10px;
+  padding-left: 11px;
+}
+.how-it-works p {
+  color: rgb(135, 141, 145);
+  line-height: 19px;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+
+/* Use cases */
+.use-cases img {
+  height: 185px;
+}

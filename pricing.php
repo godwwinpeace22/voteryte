@@ -7,8 +7,6 @@
 	<title>Pricing | Voteryte</title>
     
   <link href="css/pricing.css" rel='stylesheet' type='text/css' />
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -16,11 +14,6 @@
 
 <!-- Header -->
 <?php require 'inc/header.php' ?>
-
-<div class="banner pricing_banner" id="top">
-
-</div>
-
 
 <div class="banner pricing">
 	<div class="container">
@@ -51,7 +44,7 @@
 								<h3 class="plan-amount ">NGN 8</h3>
 								<span><i>per voter, per election</i></span>
 							</div>
-							<a href="https://app.voteryte.com/#/signup" class="btn btn-pricing btn-lg btn-block">Get Started</a>
+							<a href="https://app.voteryte.com/signup" class="btn btn-pricing btn-lg btn-block">Get Started</a>
 						</div>
 					</div>
 					<div class="col-lg-4 col-sm-6 mt-sm-0 mt-4">
@@ -98,6 +91,11 @@
 											<td class="default"><span class="">Custom</span></td>
 										</tr>
 										<tr>
+											<td>Custom Logo</td>
+											<td><span class="tick">&#10004;</span></td>
+											<td class="default"><span class="tick">&#10004;</span></td>
+										</tr>
+										<tr>
 											<td>Number of contestants</td>
 											<td><span class="">Unlimited</span></td>
 											<td class="default"><span class="">Unlimited</span></td>
@@ -119,6 +117,11 @@
 										</tr>
 										<tr>
 											<td>Live Results</td>
+											<td><span class="tick">&#10004;</span></td>
+											<td class="default"><span class="tick">&#10004;</span></td>
+										</tr>
+										<tr>
+											<td>Print/download Results</td>
 											<td><span class="tick">&#10004;</span></td>
 											<td class="default"><span class="tick">&#10004;</span></td>
 										</tr>
@@ -185,7 +188,16 @@
 									<h3 class="plan-amount ">NGN 5,000</h3>
 									<span><i>per month</i></span>
 								</div>
-								<a href="https://app.voteryte.com/#/signup" class="btn btn-pricing btn-lg btn-block">Start free for 14 days</a>
+								<a href="https://app.voteryte.com/signup" class="btn btn-pricing btn-lg btn-block">Start free for 14 days</a>
+								<h4 class="mt-5 mb-4">All the tools you need</h4>
+								<p>Create posts and articles</p>
+								<p>Send broadcast messages</p>
+								<p>Create interactive sessions and events</p>
+								<p>Contestants Insight</p>
+								<p>Who's Viewed Your Profile</p>
+								<p>Create campaigns</p>
+								<p>Unlimited contests</p>
+								<p>Charts and reports</p>
 							</div>
 						</div>
 				</div>

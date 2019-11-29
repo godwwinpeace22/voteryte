@@ -1,0 +1,16 @@
+.footer {
+  background: #092f47;
+  color: #eee;
+}
+.footer h3 {
+  font-size: 1rem;
+}
+.footer a {
+  color: #999da5;
+}
+.footer a:hover {
+  color: #ffffff;
+}
+.copyright {
+  font-size: 15px;
+}
